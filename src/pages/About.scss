@@ -1,0 +1,43 @@
+@import "../styles/variables";
+
+.about {
+  padding: 100px 20px;
+
+  &__container {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 38px;
+    margin-bottom: 24px;
+    color: $primary;
+  }
+
+  &__description {
+    font-size: 18px;
+    color: $muted;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+
+  &__highlights {
+    list-style: none;
+    padding: 0;
+
+    li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 14px;
+      color: $text;
+
+      &::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: $secondary;
+        font-weight: bold;
+      }
+    }
+  }
+}

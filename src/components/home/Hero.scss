@@ -1,0 +1,53 @@
+@import "../../styles/variables";
+
+.hero {
+  background: linear-gradient(180deg, #f8fafc, #ffffff);
+  padding: 120px 20px 100px;
+
+  &__container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $primary;
+
+    span {
+      color: $secondary;
+    }
+  }
+
+  p {
+    margin-top: 24px;
+    max-width: 680px;
+    color: $muted;
+    font-size: 19px;
+    line-height: 1.7;
+  }
+
+  &__actions {
+    margin-top: 40px;
+
+    button {
+      padding: 14px 28px;
+      font-size: 15px;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+
+    .primary-btn {
+      background: $secondary;
+      color: #fff;
+      border: none;
+    }
+
+    .secondary-btn {
+      background: transparent;
+      border: 1px solid $secondary;
+      color: $secondary;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "title": "Web, App & AI Solutions",
+    "highlight": "Solutions",
+    "description": "We design, build, and scale digital products for startups and businesses using modern web, mobile, and AI technologies.",
+    "primaryCta": "Contact Us",
+    "secondaryCta": "Explore Services"
+  },
+  "services": {
+    "heading": "What We Do",
+    "items": [
+      {
+        "title": "Web Development",
+        "description": "Scalable, secure, and high-performance web applications tailored to your business needs."
+      },
+      {
+        "title": "Mobile App Development",
+        "description": "Android and iOS applications with smooth UX and robust performance."
+      },
+      {
+        "title": "AI Integration & Development",
+        "description": "AI-powered features like chatbots, smart search, and automation to enhance products."
+      },
+      {
+        "title": "Backend & API Development",
+        "description": "Reliable backend systems, REST APIs, and microservices."
+      },
+      {
+        "title": "Cloud & DevOps",
+        "description": "Cloud deployment, CI/CD pipelines, and scalable infrastructure."
+      },
+      {
+        "title": "UI/UX Engineering",
+        "description": "Clean, intuitive, and responsive user interfaces with strong usability focus."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../../styles/variables.scss";
+
+.footer {
+  background: #f8fafc;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 80px;
+
+  &__container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: $muted;
+    font-size: 14px;
+  }
+}

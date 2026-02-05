@@ -1,0 +1,28 @@
+@import "../styles/variables";
+
+.contact {
+  padding: 80px 20px;
+
+  &__container {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    color: $primary;
+  }
+
+  &__description {
+    font-size: 18px;
+    color: $muted;
+    margin-bottom: 32px;
+  }
+
+  &__details p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: $text;
+  }
+}
