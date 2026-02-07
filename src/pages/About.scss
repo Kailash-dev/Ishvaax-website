@@ -1,43 +1,54 @@
-@import "../styles/variables";
+@use "../styles/variables" as *;
+.about-section {
+  background: $brand-surface;
 
-.about {
-  padding: 100px 20px;
+  position: relative;
 
   &__container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
+    padding: 90px 20px;
   }
 
-  h1 {
-    font-size: 38px;
-    margin-bottom: 24px;
+  h2 {
+    font-size: 34px;
+    margin-bottom: 22px;
     color: $primary;
   }
 
-  &__description {
-    font-size: 18px;
+  p {
+    max-width: 860px;
+    font-size: 17px;
+    line-height: 1.75;
     color: $muted;
-    line-height: 1.8;
-    margin-bottom: 40px;
   }
+}
 
-  &__highlights {
-    list-style: none;
-    padding: 0;
+/* 🔹 TINTED sections to match gradient */
+.about-section.alt {
+  background: $brand-surface-alt;
+}
 
-    li {
-      position: relative;
-      padding-left: 24px;
-      margin-bottom: 14px;
-      color: $text;
+/* 🔥 FEATURE CARDS */
+.about-features {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+}
 
-      &::before {
-        content: "✓";
-        position: absolute;
-        left: 0;
-        color: $secondary;
-        font-weight: bold;
-      }
-    }
-  }
+.about-feature {
+  background: linear-gradient(
+    180deg,
+    rgba(31, 106, 225, 0.06),
+    rgba(31, 106, 225, 0.02)
+  );
+
+  border: 1px solid rgba(31, 106, 225, 0.2);
+  padding: 36px 32px;
+  border-radius: 16px;
+
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+
+  transition: all 0.25s ease;
 }

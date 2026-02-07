@@ -2,8 +2,23 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: #f8fafc; // soft neutral background (tech look)
 }
 
 .app-content {
   flex: 1;
+}
+
+/* 🔑 Global page section styling */
+.app-content > section {
+  // max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+/* Optional alternating section background */
+.app-content > section.alt {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
 }

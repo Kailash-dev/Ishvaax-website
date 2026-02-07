@@ -12,6 +12,7 @@ const ServicesPreview = () => {
         <div className="services__grid">
           {services.items.map((service, index) => (
             <div className="service-card" key={index}>
+              <div className="service-card__icon" />
               <h3>{service.title}</h3>
               <p>{service.description}</p>
             </div>

@@ -1,53 +1,68 @@
-@import "../../styles/variables";
+@use "../../styles/variables" as *;
+
 
 .hero {
-  background: linear-gradient(180deg, #f8fafc, #ffffff);
-  padding: 120px 20px 100px;
+  padding: 0 !important;
+  color: #ffffff;
+  position: relative;
+
+  /* ✅ FINAL HERO GRADIENT */
+  background: $brand-gradient;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(8, 20, 40, 0.35); // soft overlay like reference
+  }
 
   &__container {
+    position: relative;
+    z-index: 1;
     max-width: 1200px;
     margin: auto;
+    padding: 140px 20px 150px;
   }
 
   h1 {
     font-size: 52px;
     font-weight: 700;
-    line-height: 1.2;
-    color: $primary;
+    line-height: 1.15;
+    max-width: 780px;
 
     span {
-      color: $secondary;
+      color: #6dd5ff;
     }
   }
 
   p {
-    margin-top: 24px;
-    max-width: 680px;
-    color: $muted;
-    font-size: 19px;
+    margin-top: 22px;
+    max-width: 640px;
+    font-size: 18px;
     line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
   }
 
   &__actions {
-    margin-top: 40px;
-
-    button {
-      padding: 14px 28px;
-      font-size: 15px;
-      border-radius: 8px;
-      font-weight: 500;
-    }
+    margin-top: 42px;
+    display: flex;
+    gap: 16px;
 
     .primary-btn {
-      background: $secondary;
+      background: #1f6ae1;
       color: #fff;
       border: none;
+      padding: 14px 30px;
+      border-radius: 8px;
+      box-shadow: 0 10px 26px rgba(31, 106, 225, 0.45);
     }
 
     .secondary-btn {
       background: transparent;
-      border: 1px solid $secondary;
-      color: $secondary;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      color: #fff;
+      padding: 14px 30px;
+      border-radius: 8px;
     }
   }
 }

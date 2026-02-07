@@ -3,11 +3,11 @@
     "title": "Web, App & AI Solutions",
     "highlight": "Solutions",
     "description": "We design, build, and scale digital products for startups and businesses using modern web, mobile, and AI technologies.",
-    "primaryCta": "Contact Us",
-    "secondaryCta": "Explore Services"
+    "primaryCta": "Get Started",
+    "secondaryCta": "Learn More"
   },
   "services": {
-    "heading": "What We Do",
+    "heading": "Our Services",
     "items": [
       {
         "title": "Web Development",

@@ -1,11 +1,31 @@
 {
-  "heading": "About Ishvax Technologies",
-  "description": "Ishvax Technologies is a software services company focused on building reliable, scalable, and future-ready digital solutions. We work closely with clients to understand their business and deliver technology that creates real impact.",
-  "highlights": [
-    "Strong engineering-first approach",
-    "Expertise across web, mobile, and AI technologies",
-    "Clean, maintainable, and scalable codebase",
-    "Flexible engagement for startups and growing businesses",
-    "Long-term support and collaboration mindset"
-  ]
+  "whoWeAre": {
+    "title": "Who We Are",
+    "description": "ISHVAX is a technology-driven company focused on building scalable, secure, and intelligent digital solutions. We help businesses transform ideas into reliable software products using modern technologies and industry best practices."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "Our mission is to empower businesses with innovative software solutions that drive efficiency, growth, and long-term success. We aim to deliver technology that is not only powerful but also simple, maintainable, and future-ready."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "We envision a future where technology seamlessly supports business goals. ISHVAX strives to become a trusted technology partner for organizations worldwide by delivering dependable and impactful digital products."
+  },
+  "whyChooseUs": {
+    "title": "Why Choose ISHVAX",
+    "features": [
+      {
+        "title": "Expert Team",
+        "description": "Our team consists of experienced engineers who understand both business requirements and technical challenges."
+      },
+      {
+        "title": "Modern Technology",
+        "description": "We use proven and modern technologies to build solutions that are scalable, secure, and high-performing."
+      },
+      {
+        "title": "Client-Focused Approach",
+        "description": "We work closely with our clients, ensuring transparency, flexibility, and clear communication throughout the project."
+      }
+    ]
+  }
 }
